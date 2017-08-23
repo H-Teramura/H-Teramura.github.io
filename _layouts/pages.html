@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    {% if page.title %}
+    <span class="blogpaginator-title"><h1>{{ page.title }}</h1></span>
+    {% endif %}
+    
+    {{ content }}
+
+    {% include footer.html %}
+  </body>
+</html>

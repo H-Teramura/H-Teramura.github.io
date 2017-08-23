@@ -12,6 +12,14 @@ timezone: Asia/Tokyo
 # Encoding
 #encoding: uft-8
 
+# Plugins
+plugins:
+  - jekyll-paginate
+
+# Paginate configuration
+paginate: 5
+paginate_path: "/blog/page:num/"
+
 # Theme specific settings
 # Your page's title
 name: "My Page"
