@@ -10,7 +10,7 @@ exclude: [readme.md, README.md]
 timezone: Asia/Tokyo
 
 # Encoding
-#encoding: uft-8
+#encoding: utf-8
 
 # Plugins
 plugins:
