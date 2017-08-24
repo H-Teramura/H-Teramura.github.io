@@ -2,6 +2,22 @@
 layout: pages
 title: ブログ
 ---
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}" class="previous_enabled">前のページ</a>
+  {% else %}
+  <span class="previous_disabled">前のページ</span>
+  {% endif %}
+
+  <span class="page_number">| {{ paginator.page }} / {{ paginator.total_pages }} ページ目 |</span>
+
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" class="next_enabled">次のページ</a>
+  {% else %}
+  <span class="next_disabled">次のページ</span>
+  {% endif %}
+</div>
+
 {% for post in paginator.posts %}
 <span class="post_entry"><a href="{{ post.url }}">{{ post.title }}</a></span>
 <span class="post_entry_date">({{ post.date }})</span>

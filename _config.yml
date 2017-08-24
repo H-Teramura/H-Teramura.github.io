@@ -28,6 +28,9 @@ permalink: /blog/:year/:month/:day/:title/
 name: "My Page"
 # IP infomation(such as copy-right notice)
 ip_info: "2017 C Ikubaku - Published under the MIT License"
+# Texts shown on the post navigator when there is no next/previous post available
+previous_noentry: "投稿がありません"
+next_noentry: "投稿がありません"
 
 # Front Matter defaults
 defaults:
