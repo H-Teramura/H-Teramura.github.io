@@ -2,4 +2,4 @@
 layout: pages
 ---
 # Welcome to my page!
-[Jekyll について](apost) [存在しないページ](wtfisthat)
+[プログ](blog) [存在しないページ](wtfisthat)
