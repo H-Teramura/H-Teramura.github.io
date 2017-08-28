@@ -31,6 +31,8 @@ ip_info: "2017 C Ikubaku - Published under the MIT License"
 # Texts shown on the post navigator when there is no next/previous post available
 previous_noentry: "投稿がありません"
 next_noentry: "投稿がありません"
+# Number of posts to list by category
+postsbycategory: 5
 
 # Front Matter defaults
 defaults:
