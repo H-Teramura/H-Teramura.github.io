@@ -1,5 +1,13 @@
 ---
 layout: pages
 ---
-# Welcome to my page!
-[プログ](blog) [存在しないページ](wtfisthat)
+# Ikubaku のページへようこそ!
+Python とか電子工作とか FPGA とかで何か作ります！
+
+[プログ](blog)
+日々の進捗と迷走
+
+[Ikubakuについて](about)
+簡単な自己紹介
+
+<u>ダウンロード(まだ何もない)</u>

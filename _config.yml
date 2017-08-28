@@ -16,7 +16,7 @@ timezone: Asia/Tokyo
 plugins:
   - jekyll-paginate
 
-# Paginate configuration
+# Pagination configuration
 paginate: 5
 paginate_path: "/blog/page:num/"
 
@@ -25,9 +25,9 @@ permalink: /blog/:year/:month/:day/:title/
 
 # Theme settings
 # Your page's title
-name: "My Page"
+name: "Fractal Flux"
 # IP infomation(such as copy-right notice)
-ip_info: "2017 C Ikubaku - Published under the MIT License"
+ip_info: "Copyright (C) Ikubaku All rights reserved. リンクフリーです"
 # Texts shown on the post navigator when there is no next/previous post available
 previous_noentry: "投稿がありません"
 next_noentry: "投稿がありません"
