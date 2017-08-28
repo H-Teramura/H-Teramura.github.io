@@ -1,5 +1,6 @@
 ---
 layout: pages
+title: null
 ---
 # Ikubaku のページへようこそ!
 Python とか電子工作とか FPGA とかで何か作ります！
