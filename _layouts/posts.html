@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    
+    <div class="post_navigator">
+      {% if page.previous %}
+      <a class="post_previous_enabled" href="{{ page.previous.path }}">&lt; {{ page.previous.title }}</a> |
+      {% else %}
+      <span class="post_previous_disabled">&lt; {{ site.previous_noentry }}</span> |
+      {% endif %}
+      {% if page.next %}
+      <a class="post_next_enabled" href="{{ page.next.path }}">{{ page.next.title }} &gt;</a>
+      {% else %}
+      <span class="post_next_disabled">{{ site.next_noentry }} &gt;</span>
+      {% endif %}
+    </div>
+    
+    <span class="post_title"><h1>{{ page.title }}</h1></span>
+    <span class="post_metadata">(投稿日時: {{ page.date }} カテゴリ: {{ page.categories }})</span>
+    <div class="post_content">
+      {{ content }}
+    </div>
+
+    <div class="post_navigator">
+      {% if page.previous %}
+      <a class="post_previous_enabled" href="{{ page.previous.path }}">&lt; {{ page.previous.title }}</a> |
+      {% else %}
+      <span class="post_previous_disabled">&lt; {{ site.previous_noentry }}</span> |
+      {% endif %}
+      {% if page.next %}
+      <a class="post_next_enabled" href="{{ page.next.path }}">{{ page.next.title }} &gt;</a>
+      {% else %}
+      <span class="post_next_disabled">{{ site.next_noentry }} &gt;</span>
+      {% endif %}
+    </div>
+    
+    {% include footer.html %}
+  </body>
+</html>

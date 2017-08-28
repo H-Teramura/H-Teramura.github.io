@@ -1,18 +1,8 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: pages
+title: 自己紹介
 ---
+(リスト用のCSSがまだかけてないのでレイアウトは微妙ですが...)
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+ハンドルネーム: Ikubaku  
+某大学生。Viual Basic で簡単なアプリを作ったことがきっかけでプログラミングを始める。まだコンピュータの仕組みに詳しくないので勉強中

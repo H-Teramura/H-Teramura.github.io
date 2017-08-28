@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    <span class="page_title"><h1>{{ page.category }}に関する投稿</h1></span>
+    <span class="n_cat_recent_post">最新の{{ site.postsbycategory }}件以内を表示</span>
+    <div class="cat_posts">
+      {% assign cnt_posts = 0 %}
+      {% for post in site.posts %}
+      {% for cat in post.categories %}
+      {% if cat == page.category %}
+      <span class="post_entry"><a href="{{ post.url }}">{{ post.title }}</a></span>
+      <span class="post_entry_date">({{ post.date }})</span>
+      <div class="content_brief">
+	{{ post.excerpt | remove: '<p>' | remove: '</p>' }} ...
+      </div>
+      {% increment cnt_posts %}
+      {% break %}
+      {% endif %}
+      {% endfor %}
+      {% if cnt_posts >= site.postsbycategory %}
+      {% break %}
+      {% endif %}
+      {% endfor %}
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

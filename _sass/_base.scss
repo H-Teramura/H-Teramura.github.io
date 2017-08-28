@@ -1,0 +1,55 @@
+// Stylesheet for tags
+// HTML
+html {
+    font-size: small;
+}
+
+// Headings
+h1, h2, h3 {
+    font-family: Arial, Helvertica, sans-serif;
+    //font-family: "Times New Roman", Times, serif;
+    padding: 1rem 0px 1rem 0.5rem;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+
+// Paragraphs
+p {
+    font-size: 1.2rem;
+    font-family: Arial, Helvertica, sans-serif;
+    line-height: 1.6;
+    padding: 1.2rem 0px 1.2rem 4rem;
+}
+
+// Text styles
+em, i {
+    font-style: italic;
+}
+strong, b {
+    font-weight: bold;
+}
+
+// Code snippets
+code, tt, in, kbd, var, samp {
+    font-family: "Courier New", Courier, monospace;
+}
+
+// Small / big text
+small {
+    font-size: small;
+}
+big {
+    font-size: large;
+}
+
+// Images
+img {
+    float: none;
+}
