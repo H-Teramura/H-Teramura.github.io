@@ -1,7 +1,6 @@
 # Oretoku-theme-jekyll
 # ver. 0.0.1
 # 2017 Ikubaku <hide4d51@gmail.com>
-# Published under the MIT license
 
 # Setting for GitHub Pages
 exclude: [readme.md, README.md]
@@ -15,6 +14,7 @@ timezone: Asia/Tokyo
 # Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-feed
 
 # Pagination configuration
 paginate: 5
