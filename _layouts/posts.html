@@ -26,12 +26,12 @@
 
     <div class="post_navigator">
       {% if page.previous %}
-      <a class="post_previous_enabled" href="/{{ page.previous.url | absolute_url }}">&lt; {{ page.previous.title }}</a> |
+      <a class="post_previous_enabled" href="{{ page.previous.url | absolute_url }}">&lt; {{ page.previous.title }}</a> |
       {% else %}
       <span class="post_previous_disabled">&lt; {{ site.previous_noentry }}</span> |
       {% endif %}
       {% if page.next %}
-      <a class="post_next_enabled" href="/{{ page.next.url | absolute_url }}">{{ page.next.title }} &gt;</a>
+      <a class="post_next_enabled" href="{{ page.next.url | absolute_url }}">{{ page.next.title }} &gt;</a>
       {% else %}
       <span class="post_next_disabled">{{ site.next_noentry }} &gt;</span>
       {% endif %}
