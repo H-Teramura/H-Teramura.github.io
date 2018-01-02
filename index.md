@@ -4,7 +4,7 @@ title: Ikubaku のページへようこそ!
 ---
 Python とか電子工作とか FPGA とかで何か作ります！
 
-[プログ](blog)
+[ブログ](blog)
 日々の進捗と迷走
 
 [Ikubakuについて](about)
