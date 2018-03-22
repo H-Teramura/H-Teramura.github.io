@@ -5,7 +5,7 @@ html {
 }
 
 // Headings
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvertica, sans-serif;
     //font-family: "Times New Roman", Times, serif;
     padding: 1rem 0px 1rem 0.5rem;
@@ -19,6 +19,16 @@ h2 {
 h3 {
     font-size: 2rem;
 }
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.2rem;
+}
+h6 {
+    font-size: 1rem;
+}
+
 
 // Paragraphs
 p {
