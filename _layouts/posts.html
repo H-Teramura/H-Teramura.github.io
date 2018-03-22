@@ -19,7 +19,7 @@
     </div>
     
     <span class="post_title"><h1>{{ page.title }}</h1></span>
-    <span class="post_metadata">(投稿日時: {{ page.date }} カテゴリ: {{ page.categories }})</span>
+    <span class="post_metadata">(投稿日時: {{ page.date }} カテゴリ: {{ page.categories | join: ' ' }})</span>
     <div class="post_content">
       {{ content }}
     </div>
