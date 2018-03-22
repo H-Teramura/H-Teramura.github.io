@@ -28,6 +28,17 @@ p {
     padding: 1.2rem 0px 1.2rem 4rem;
 }
 
+// Lists
+ul, li {
+    list-style-type: disc;
+    list-style-position: outside;
+    list-style-image: none;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvertica, sans-serif;
+}
+
 // Text styles
 em, i {
     font-style: italic;
