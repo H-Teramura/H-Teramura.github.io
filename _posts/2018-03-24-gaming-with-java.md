@@ -19,6 +19,7 @@ LWJGLはゲーム内のもののクラスが用意されているようなタイ
 > LWJGL is a Java library that enables cross-platform access to popular native APIs useful in the development of graphics (OpenGL, Vulkan), audio (OpenAL) and parallel computing (OpenCL) applications. This access is direct and high-performance, yet also wrapped in a type-safe and user-friendly layer, appropriate for the Java ecosystem.
 
 > LWJGL is an enabling technology and provides low-level access. It is not a framework and does not provide higher-level utilities than what the native libraries expose. As such, novice programmers are encouraged to try one of the frameworks or game engines that make use of LWJGL, before working directly with the library.
+
 （<https://www.playframework.com/> より引用）
 
 [^1]:1,OpenCLも使えるらしい
@@ -36,11 +37,15 @@ LWJGLはゲーム内のもののクラスが用意されているようなタイ
 
 まずHelloWorld.javaというファイルにサンプルコードを書いて保存してやります。で、コンパイルのやり方ですが、LWJGLのクラスをインポートしたいのでjavacのオプションとして先程LWJGLを展開したパスを与えてやります[^2]。
 
+```
 $ javac -cp "/path/to/lwjgl/*:." HelloWorld.java
+```
 
 実行時も同様に
 
+```
 $ java -cp "/path/to/lwjgl/*:." HelloWorld
+```
 
 -cpというのがクラスパスを指定するオプションでコロンでファイルパスを区切って書きます。この場合はLWJGLを展開したディレクトリの中の全ファイルとカレントディレクトリ内のclassファイルが検索対象になります。
 
