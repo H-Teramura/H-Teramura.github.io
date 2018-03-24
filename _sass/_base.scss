@@ -59,7 +59,13 @@ strong, b {
 
 // Code snippets
 code, tt, in, kbd, var, samp {
+	font-size: 1.2rem;
     font-family: "Courier New", Courier, monospace;
+    line-height: 1.6;
+    margin: 1.2rem 0px 1.2rem 4rem;
+	padding: 5px;
+    background: #CCCCCC;
+	border: 2px solid #888888;
 }
 
 // Small / big text
